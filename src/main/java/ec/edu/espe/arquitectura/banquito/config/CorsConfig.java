@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")
+                        .allowedOrigins("https://backoffice-6ea1c.web.app/")
                         .exposedHeaders("Content-Disposition")
                         .allowedMethods("*");
             }
